@@ -76,6 +76,14 @@ Please be aware of the different RJ45 pinout colors ([T-568A vs. T-568B](images/
 
 ## Installation
 
+```bash
+sudo apt install python3.12-venv
+python3 -m venv ~/py_envs
+source ~/py_envs/bin/activate
+python3 -m pip install esphome
+
+```
+
 Use the `esp32-example.yaml` / `esp8266-example.yaml` as proof of concept:
 
 ```bash
